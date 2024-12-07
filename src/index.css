@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.nav{
+  
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(137, 43, 226, 0.572);
+  display: flex;
+
+}
+.nav h1{
+  gap: 5px;
+  margin-left: 60px;
+  font-size: 34px;
+  font-weight: bolder;
+  text-align: center;
+  
+}
+.navbar .navbar-items{
+  justify-content: space-between;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 60px;
+}
